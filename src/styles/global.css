@@ -6,12 +6,16 @@
     list-style: none;
 }
 
-:root{
---color-purple900: #10002b
---color-purple800: #240046
---color-purple700: #3c096c
---color-purple600: #5a189a
---color-purple500: #7b2cbf
---color-purple400: #9d4edd
---color-purple300: #c77dff
+:root {
+    --color-purple900: #10002b;
+    --color-purple800: #240046;
+    --color-purple700: #3c096c;
+    --color-purple600: #5a189a;
+    --color-purple500: #7b2cbf;
+    --color-purple400: #9d4edd;
+    --color-purple300: #c77dff;
+    --color-white: #FFFFFF;
+
+    --font-title: "Bebas Neue", sans-serif;
+    --font-body: "Inter", sans-serif;
 }
