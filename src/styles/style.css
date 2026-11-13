@@ -42,7 +42,7 @@ main {
     justify-content: flex-end;
     padding-bottom: 100px;
     padding-left: 100px;
-    height: 80vh;
+    height: 100vh;
     background-image: url("../assets/images/illustrationMain.svg");
     background-repeat: no-repeat;
     background-size: cover;
