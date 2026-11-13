@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,23 @@
     <meta name="author" content="Matheus Maia Alvares">
     <meta name="description" content="Página sobre cinema, desenvolvida no curso de LIMA do SENAI.">
     <meta name="keywords" content="HTML, CSS, Filmes, Cinema">
-    <title>SpaceCine</title>
     <link rel="stylesheet" href="./src/styles/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Cabeçalho -->
-
     <header>
 
         <!-- Grupo 1 -->
         <img src="./src/assets/images/logo.svg" alt="Logo SpaceCine">
+
         <!-- Grupo 2 -->
         <nav>
             <ul class="menu">
@@ -31,59 +32,100 @@
                 <li><a href="">Em cartaz</a></li>
                 <li><a href="">Diferenciais</a></li>
                 <li><a href="">Destaques</a></li>
-                <li><a href="">Avaliações</a></li>        
+                <li><a href="">Avaliações</a></li>
             </ul>
         </nav>
 
         <!-- Grupo 3 -->
-
         <nav>
             <a href="" class="btnLogin">Login</a>
         </nav>
 
     </header>
-    
+
     <!-- MAIN -->
-
-<!-- MAIN -->
-
     <main>
         <h1>Vingadores <span class="text-highlight">ultimato</span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptate expedita quidem? Impedit id totam quos eligendi doloremque molestiae in doloribus repellendus? Labore temporibus dolores eos sit blanditiis ab quidem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptate expedita quidem? Impedit id totam
+            quos eligendi doloremque molestiae in doloribus repellendus? Labore temporibus dolores eos sit blanditiis ab
+            quidem.</p>
         <nav>
             <a href="" class="btnPrimary">Comprar agora</a>
             <a href="" class="btnSecondary">Ver mais</a>
         </nav>
     </main>
 
-    <!-- section -->
-
+    <!-- SECTION: FILMES EM CARTAZ -->
     <section class="section-showing">
 
-        <div class="showing-context">
-
+        <div class="showing-content">
             <span>Agora no SpaceCine</span>
             <h2>Filmes em cartaz</h2>
-
         </div>
 
         <div class="showing-container-movies">
+
             <div class="card-movies">
                 <img src="./src/assets/images/film-1.svg" alt="Capa do filme para todos os garotos que já amei">
                 <h3>Para todos os garotos...</h3>
-                <div>
+                <div class="movie-details">
                     <span>Romance - 1h 40m</span>
                     <div class="movies-avaliation">
-                        <img src="./src/assets/images/icon-star.svg" alt="estrela" loading="lazy">
+                        <img src="./src/assets/images/icon-star.svg" alt="estrela">
                         <span>4.9</span>
                     </div>
                 </div>
             </div>
-            </div> 
-        </div>
 
+            <div class="card-movies">
+                <img src="./src/assets/images/film-2.svg" alt="Capa do filme para todos os garotos que já amei">
+                <h3>Velozes e Furiosos 11</h3>
+                <div class="movie-details">
+                    <span>Ação - 2h 20m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/icon-star.svg" alt="estrela">
+                        <span>4.5</span>
+                    </div>
+                </div>
+            </div>
 
-</section>
+            <div class="card-movies">
+                <img src="./src/assets/images/film-3.svg" alt="Capa do filme para todos os garotos que já amei">
+                <h3>Gente grande 3</h3>
+                <div class="movie-details">
+                    <span>Comédia - 1h 50m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/icon-star.svg" alt="estrela">
+                        <span>5.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-movies">
+                <img src="./src/assets/images/film-4.svg" alt="Capa do filme para todos os garotos que já amei">
+                <h3>Avatar</h3>
+                <div class="movie-details">
+                    <span>Ficção - 2h 40m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/icon-star.svg" alt="estrela">
+                        <span>4.9</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-movies">
+                <img src="./src/assets/images/film-5.svg" alt="Capa do filme para todos os garotos que já amei">
+                <h3>Homem aranha: Um novo...</h3>
+                <div class="movie-details">
+                    <span>Ação - 2h 15m</span>
+                    <div class="movies-avaliation">
+                        <img src="./src/assets/images/icon-star.svg" alt="estrela">
+                        <span>5.0</span>
+                    </div>
+                </div>
+            </div>
+
+    </section>
 
 </body>
 
